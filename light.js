@@ -7,7 +7,7 @@ function setup() {
     background(0);
   
     // Orange point light on the right
-    pointLight(150, 100, 0, 500, 0, 200);
+    pointLight(250, 50, 0, 500, 0, 200);
   
     // Blue directional light from the left
     directionalLight(0, 102, 255, -1, 0, 0);
