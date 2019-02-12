@@ -6,13 +6,7 @@ function setup() {
     let inside = color(135, 202, 260);
     let middle = color(24, 153, 250);
     let outside = color(123, 151, 220);
-  
-    // These statements are equivalent to the statements above.
-    // Programmers may use the format they prefer.
-    //let inside = color('#CC6600');
-    //let middle = color('#CC9900');
-    //let outside = color('#993300');
-  
+
     push();
     translate(80, 80);
     fill(outside);
