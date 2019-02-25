@@ -7,7 +7,7 @@ function setup() {
   noStroke();
 
   // Draw white bars
-  fill(55,30,90);
+  fill(155,30,90);
   y = 60;
   for (let i = 0; i < num / 3; i++) {
     rect(50, y, 475, 10);
@@ -18,7 +18,7 @@ function setup() {
   fill(51,50,150);
   y = 40;
   for (let i = 0; i < num; i++) {
-    rect(405, y, 30, 10);
+    rect(405, y, 30, 10.);
     y += 20;
   }
   y = 50;
