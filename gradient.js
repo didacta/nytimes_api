@@ -17,8 +17,7 @@ function setup() {
 
 function draw() {
   // Background
-  setGradient(0, 0, width / 20, height, b1, b2, X_AXIS);
-
+  setGradient(0, 0, width / 2, height, b1, b2, X_AXIS);
   setGradient(width / 2, 0, width / 2, height, b2, b1, X_AXIS);
 
   // Foreground
