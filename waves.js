@@ -42,7 +42,7 @@ function Particle() {
 }
 
 var scl = 0.001;
-var particleCount = 1220;   
+var particleCount = 220;   
 
 const maxspeed = 3;
 const accMultiplier = 2 * Math.PI;
@@ -56,7 +56,7 @@ var particles = [];
 
 function setup() {
     createCanvas(1920, 1080);
-    colorMode(HSB, 255);
+    colorMode(HSB, 155);
 
     resetCanvas();
 }
@@ -84,9 +84,9 @@ function resetCanvas() {
     
     setParticles(particleCount); 
     background(0);
-    hueStart = random(256);
+    hueStart = (110,20,25);
     hueMultiplier = random(100, 350);
-    xMove = random(2000);
+    xMove = random(2);
     yMove = random(2000);
 }
 
