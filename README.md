@@ -1,3 +1,7 @@
+# Waves.js 3/5/19 video
+![waves.js image](
+        p5.js/waves.gif
+      )
 # Gradient.js 2/28/19 sketch
 ![gradient.js image](https://raw.githubusercontent.com/didacta/p5.js/master/gradient.png)
 # Noise.js 2/26/19 sketch
