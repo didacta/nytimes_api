@@ -1,6 +1,7 @@
 function setup() {
     // Create the canvas
     createCanvas(920, 600,WEBGL);
+    
     background(200);
     normalMaterial();
     // Set colors
@@ -48,9 +49,17 @@ function setup() {
     fill(104, 101, 192, 127);
     plane(50,20,30,2,8)
     fill(154, 101, 192, 127);
+    translate(0, 10, 0);
     ellipsoid(50, 80, 90);
-    fill(304, 101, 192, 127);
-    box(-325,110,30,14,82);
-
+    translate(-10, 10, 200);
+    rotateX(frameCount * 0.015);
+    rotateY(frameCount * 0.015);
+    fill(44, 101, 192, 127);
+    ellipsoid(50, 80, 90);
+    fill(4, 01, 192, 127);
+    translate(0, 10, 0);
+    box(-325,10,30,14,82);
+    translate(0, 100, 0);
+    
   }
   
