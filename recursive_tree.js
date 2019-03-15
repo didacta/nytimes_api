@@ -1,13 +1,13 @@
 let theta;
 
 function setup() {
-  createCanvas(710, 400);
+  createCanvas(1710,900);
 }
 
 function draw() {
   background(0);
   frameRate(30);
-  stroke(255);
+  stroke(22,145,234);
   // Let's pick an angle 0 to 90 degrees based on the mouse position
   let a = (mouseX / width) * 90;
   // Convert it to radians
@@ -25,7 +25,7 @@ function draw() {
 
 function branch(h) {
   // Each branch will be 2/3rds the size of the previous one
-  h *= 0.66;
+  h *= 0.876;
 
   // All recursive functions must have an exit condition!!!!
   // Here, ours is when the length of the branch is 2 pixels or less
