@@ -43,9 +43,9 @@ let sketch = function(p) {
       p.translate(p.width / 2, 0);
       for (var j = 0; j < rows; j++) {
         p.scale(block_front / block_back);
-        for (var i = 0; i < rows / 2; i++) {
+        for (var i = 0; i < rows / 2.20; i++) {
           display_column(i, j);
-          display_column(rows - i + 1, j);
+          display_column(rows - i - 1, j);
         }
       }
       tick++;
@@ -61,7 +61,7 @@ let sketch = function(p) {
       let q4 = get_point(i, val, block_front);
   
       if (q4.y < block_front + 180) {
-        p.fill(236, 65, 38);
+        p.fill(14, 75, 148);
         p.beginShape();
         p.vertex(q1.x, q1.y);
         p.vertex(q4.x, q4.y);
@@ -69,7 +69,7 @@ let sketch = function(p) {
         p.vertex(q1.x, block_back + 180);
         p.endShape(p.CLOSE);
   
-        p.fill(236, 65, 38);
+        p.fill(14, 75, 148);
         p.beginShape();
         p.vertex(q2.x, q2.y);
         p.vertex(q3.x, q3.y);
@@ -77,7 +77,7 @@ let sketch = function(p) {
         p.vertex(q2.x, block_back + 180);
         p.endShape(p.CLOSE);
   
-        p.fill(325,230,332);
+        p.fill(0,128,255);
         p.beginShape();
         p.vertex(q1.x, q1.y);
         p.vertex(q2.x, q2.y);
@@ -85,7 +85,7 @@ let sketch = function(p) {
         p.vertex(q4.x, q4.y);
         p.endShape(p.CLOSE);
   
-        p.fill(249, 125, 118);
+        p.fill(14, 75, 148);
         p.rect(q4.x, q4.y, q3.x, block_front + 180);
       }
     }
