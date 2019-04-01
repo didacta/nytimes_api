@@ -5,7 +5,7 @@ function setup() {
   s = 150;
   mouseX = width/2;
   mouseY = height/2;
-  background('#C5D2D6');
+  background('lightblue');
 }
 
 function draw() {
