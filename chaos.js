@@ -20,7 +20,7 @@ function go(iters) {
 
 function setup() {
     createCanvas(1000, 1000);
-    background(255);
+    background(255, 140, 0);
     noLoop();
 }
 
@@ -32,11 +32,11 @@ function draw() {
 
         go(100);
     }
-    stroke(2,25, 50);
-    for (j = 0; j < 50000; j++) {
-        x0 = random(20, -10);
+    stroke(155,20,1);
+    for (j = 0; j < 9400; j++) {
+        x0 = random(120, -10);
         y0 = random(20, -10);
 
-        go(200);
+        go(1);
     }
 }
