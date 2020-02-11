@@ -1,9 +1,8 @@
 
 let a;
-
 function setup() {
-  createCanvas(720, 400);
-  stroke(155,50,50);
+  createCanvas(920, 600);
+  stroke(255,50,50,150);
   a = height / 2;
 }
 

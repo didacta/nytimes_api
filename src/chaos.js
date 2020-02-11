@@ -12,7 +12,7 @@ function go(iters) {
         var xt = x;
 
         x = d * sin(a * x) - sin(b * y);
-        y = c * cos(a ** xt) + cos(b * y);
+        y = c * cos(a * xt) + cos(b * y);
     }
 
     point(map(x, - 10, 10, 0, width), map(y, -10, 10, height, 0));
@@ -26,14 +26,14 @@ function setup() {
 
 function draw() {
     stroke(20, 20);
-    for (j = 0; j < 150000; j++) {
+    for (j = 0; j < 1500; j++) {
         x0 = random(-10, 10);
         y0 = random(-10, 10);
 
         go(100);
     }
     stroke(155,20,1);
-    for (j = 0; j < 9400; j++) {
+    for (j = 0; j < 100; j++) {
         x0 = random(120, -10);
         y0 = random(20, -10);
 

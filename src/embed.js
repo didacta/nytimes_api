@@ -3,7 +3,7 @@ function setup() {
     background(0);
     noStroke();
   
-    let gridSize = 35;
+    let gridSize = 55;
   
     for (let x = gridSize; x <= width - gridSize; x += gridSize) {
       for (let y = gridSize; y <= height - gridSize; y += gridSize) {

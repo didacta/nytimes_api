@@ -45,7 +45,7 @@ function draw() {
     if (!trace) ellipse(0, 0, radius*2, radius*2); // if we're simulating, draw the sine
     push(); // go up one level
     translate(0, radius); // move to sine edge
-    if (!trace) ellipse(0, 0, 5, 5); // draw a little circle
+    if (!trace) ellipse(0, 10, 5, 5); // draw a little circle
     if (trace) ellipse(0, 0, erad, erad); // draw with erad if tracing
     pop(); // go down one level
     translate(0, radius); // move into position for next sine

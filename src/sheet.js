@@ -69,7 +69,7 @@ let sketch = function(p) {
         p.vertex(q1.x, block_back + 180);
         p.endShape(p.CLOSE);
   
-        p.fill(14, 75, 148);
+        p.fill(14, 175, 148);
         p.beginShape();
         p.vertex(q2.x, q2.y);
         p.vertex(q3.x, q3.y);
